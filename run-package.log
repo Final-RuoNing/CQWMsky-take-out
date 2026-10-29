@@ -1,0 +1,2599 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] sky-take-out                                                       [pom]
+[INFO] sky-common                                                         [jar]
+[INFO] sky-pojo                                                           [jar]
+[INFO] sky-server                                                         [jar]
+[INFO] 
+[INFO] ------------------------< com.sky:sky-take-out >------------------------
+[INFO] Building sky-take-out 1.0-SNAPSHOT                                 [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -------------------------< com.sky:sky-common >-------------------------
+[INFO] Building sky-common 1.0-SNAPSHOT                                   [2/4]
+[INFO]   from sky-common\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar
+Progress (1): 7.3/42 kB
+Progress (1): 16/42 kB 
+Progress (1): 32/42 kB
+Progress (1): 42 kB   
+                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar (42 kB at 116 kB/s)
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ sky-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ sky-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ sky-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\14759\Desktop\projectcode\sky-take-out\sky-common\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ sky-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ sky-common ---
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.jar
+Progress (1): 7.4/528 kB
+Progress (1): 16/528 kB 
+Progress (1): 32/528 kB
+Progress (1): 48/528 kB
+Progress (1): 65/528 kB
+Progress (1): 81/528 kB
+Progress (1): 97/528 kB
+Progress (1): 114/528 kB
+Progress (1): 130/528 kB
+Progress (1): 146/528 kB
+Progress (1): 163/528 kB
+Progress (1): 179/528 kB
+Progress (1): 196/528 kB
+Progress (1): 212/528 kB
+Progress (1): 228/528 kB
+Progress (1): 245/528 kB
+Progress (1): 261/528 kB
+Progress (1): 278/528 kB
+Progress (1): 294/528 kB
+Progress (1): 310/528 kB
+Progress (1): 327/528 kB
+Progress (1): 343/528 kB
+Progress (1): 359/528 kB
+Progress (1): 376/528 kB
+Progress (1): 392/528 kB
+Progress (1): 409/528 kB
+Progress (1): 425/528 kB
+Progress (1): 441/528 kB
+Progress (1): 458/528 kB
+Progress (1): 474/528 kB
+Progress (1): 491/528 kB
+Progress (1): 507/528 kB
+Progress (1): 516/528 kB
+Progress (1): 528 kB    
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/maven-surefire-common/2.22.2/maven-surefire-common-2.22.2.jar (528 kB at 3.5 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar
+Progress (1): 3.4/14 kB
+Progress (1): 14 kB    
+Progress (2): 14 kB | 0.5/13 kB
+Progress (2): 14 kB | 13 kB    
+                           
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar (14 kB at 340 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+Progress (2): 13 kB | 1.9/186 kB
+Progress (2): 13 kB | 18/186 kB 
+Progress (2): 13 kB | 35/186 kB
+Progress (3): 13 kB | 35/186 kB | 3.4/80 kB
+Progress (3): 13 kB | 35/186 kB | 20/80 kB 
+Progress (3): 13 kB | 51/186 kB | 20/80 kB
+Progress (3): 13 kB | 51/186 kB | 36/80 kB
+Progress (3): 13 kB | 67/186 kB | 36/80 kB
+                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar (13 kB at 230 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+Progress (2): 84/186 kB | 36/80 kB
+Progress (2): 91/186 kB | 36/80 kB
+Progress (2): 91/186 kB | 53/80 kB
+Progress (2): 97/186 kB | 53/80 kB
+Progress (3): 97/186 kB | 53/80 kB | 1.9/12 kB
+Progress (3): 103/186 kB | 53/80 kB | 1.9/12 kB
+Progress (4): 103/186 kB | 53/80 kB | 1.9/12 kB | 4.9/274 kB
+Progress (4): 103/186 kB | 53/80 kB | 12 kB | 4.9/274 kB    
+Progress (4): 103/186 kB | 53/80 kB | 12 kB | 21/274 kB 
+Progress (4): 103/186 kB | 69/80 kB | 12 kB | 21/274 kB
+Progress (4): 103/186 kB | 80 kB | 12 kB | 21/274 kB   
+Progress (4): 114/186 kB | 80 kB | 12 kB | 21/274 kB
+Progress (4): 114/186 kB | 80 kB | 12 kB | 38/274 kB
+Progress (4): 126/186 kB | 80 kB | 12 kB | 38/274 kB
+Progress (4): 126/186 kB | 80 kB | 12 kB | 54/274 kB
+Progress (4): 126/186 kB | 80 kB | 12 kB | 70/274 kB
+Progress (5): 126/186 kB | 80 kB | 12 kB | 70/274 kB | 7.4/228 kB
+Progress (5): 126/186 kB | 80 kB | 12 kB | 70/274 kB | 7.8/228 kB
+Progress (5): 126/186 kB | 80 kB | 12 kB | 70/274 kB | 15/228 kB 
+Progress (5): 142/186 kB | 80 kB | 12 kB | 70/274 kB | 15/228 kB
+Progress (5): 142/186 kB | 80 kB | 12 kB | 87/274 kB | 15/228 kB
+Progress (5): 158/186 kB | 80 kB | 12 kB | 87/274 kB | 15/228 kB
+Progress (5): 160/186 kB | 80 kB | 12 kB | 87/274 kB | 15/228 kB
+Progress (5): 160/186 kB | 80 kB | 12 kB | 103/274 kB | 15/228 kB
+Progress (5): 173/186 kB | 80 kB | 12 kB | 103/274 kB | 15/228 kB
+Progress (5): 173/186 kB | 80 kB | 12 kB | 103/274 kB | 25/228 kB
+Progress (5): 180/186 kB | 80 kB | 12 kB | 103/274 kB | 25/228 kB
+Progress (5): 183/186 kB | 80 kB | 12 kB | 103/274 kB | 25/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 25/228 kB    
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 37/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 44/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 46/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 52/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 59/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 62/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 65/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 103/274 kB | 75/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 75/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 79/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 87/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 95/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 104/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 110/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 117/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 123/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 135/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 144/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 154/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 120/274 kB | 157/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 136/274 kB | 157/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 152/274 kB | 157/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 152/274 kB | 173/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 152/274 kB | 179/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 152/274 kB | 182/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 169/274 kB | 182/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 169/274 kB | 187/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 185/274 kB | 187/228 kB
+Progress (5): 186 kB | 80 kB | 12 kB | 201/274 kB | 187/228 kB
+                                                              
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (80 kB at 873 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+Progress (4): 186 kB | 12 kB | 218/274 kB | 187/228 kB
+Progress (4): 186 kB | 12 kB | 218/274 kB | 199/228 kB
+Progress (4): 186 kB | 12 kB | 218/274 kB | 208/228 kB
+Progress (4): 186 kB | 12 kB | 234/274 kB | 208/228 kB
+Progress (4): 186 kB | 12 kB | 234/274 kB | 217/228 kB
+Progress (4): 186 kB | 12 kB | 234/274 kB | 225/228 kB
+Progress (4): 186 kB | 12 kB | 251/274 kB | 225/228 kB
+Progress (4): 186 kB | 12 kB | 251/274 kB | 228 kB    
+Progress (4): 186 kB | 12 kB | 267/274 kB | 228 kB
+Progress (4): 186 kB | 12 kB | 274 kB | 228 kB    
+Progress (5): 186 kB | 12 kB | 274 kB | 228 kB | 3.4/39 kB
+Progress (5): 186 kB | 12 kB | 274 kB | 228 kB | 20/39 kB 
+Progress (5): 186 kB | 12 kB | 274 kB | 228 kB | 36/39 kB
+Progress (5): 186 kB | 12 kB | 274 kB | 228 kB | 39 kB   
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar (228 kB at 1.9 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar (274 kB at 2.1 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/junit/junit/4.12/junit-4.12.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 kB at 289 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+Progress (3): 186 kB | 12 kB | 7.4/194 kB
+Progress (3): 186 kB | 12 kB | 16/194 kB 
+Progress (3): 186 kB | 12 kB | 32/194 kB
+Progress (3): 186 kB | 12 kB | 48/194 kB
+Progress (3): 186 kB | 12 kB | 65/194 kB
+Progress (4): 186 kB | 12 kB | 65/194 kB | 0.5/315 kB
+                                                     
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar (186 kB at 1.3 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+Progress (3): 12 kB | 81/194 kB | 0.5/315 kB
+Progress (3): 12 kB | 97/194 kB | 0.5/315 kB
+Progress (3): 12 kB | 114/194 kB | 0.5/315 kB
+Progress (3): 12 kB | 114/194 kB | 17/315 kB 
+Progress (3): 12 kB | 114/194 kB | 30/315 kB
+Progress (3): 12 kB | 114/194 kB | 43/315 kB
+Progress (3): 12 kB | 114/194 kB | 50/315 kB
+Progress (3): 12 kB | 114/194 kB | 53/315 kB
+Progress (3): 12 kB | 114/194 kB | 62/315 kB
+Progress (3): 12 kB | 114/194 kB | 65/315 kB
+Progress (3): 12 kB | 130/194 kB | 65/315 kB
+Progress (3): 12 kB | 130/194 kB | 69/315 kB
+Progress (3): 12 kB | 130/194 kB | 72/315 kB
+Progress (3): 12 kB | 130/194 kB | 75/315 kB
+Progress (3): 12 kB | 130/194 kB | 78/315 kB
+Progress (3): 12 kB | 130/194 kB | 82/315 kB
+Progress (3): 12 kB | 130/194 kB | 88/315 kB
+Progress (3): 12 kB | 130/194 kB | 94/315 kB
+Progress (3): 12 kB | 130/194 kB | 100/315 kB
+Progress (3): 12 kB | 130/194 kB | 103/315 kB
+Progress (3): 12 kB | 130/194 kB | 110/315 kB
+Progress (3): 12 kB | 130/194 kB | 114/315 kB
+Progress (3): 12 kB | 130/194 kB | 123/315 kB
+Progress (3): 12 kB | 130/194 kB | 127/315 kB
+Progress (3): 12 kB | 146/194 kB | 127/315 kB
+Progress (3): 12 kB | 146/194 kB | 136/315 kB
+Progress (3): 12 kB | 146/194 kB | 139/315 kB
+Progress (3): 12 kB | 146/194 kB | 144/315 kB
+Progress (3): 12 kB | 146/194 kB | 152/315 kB
+Progress (3): 12 kB | 163/194 kB | 152/315 kB
+Progress (3): 12 kB | 163/194 kB | 167/315 kB
+Progress (3): 12 kB | 179/194 kB | 167/315 kB
+Progress (3): 12 kB | 179/194 kB | 183/315 kB
+Progress (3): 12 kB | 194 kB | 183/315 kB    
+Progress (4): 12 kB | 194 kB | 183/315 kB | 7.3/156 kB
+Progress (4): 12 kB | 194 kB | 183/315 kB | 16/156 kB 
+Progress (4): 12 kB | 194 kB | 183/315 kB | 32/156 kB
+                                                     
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 77 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+Progress (3): 194 kB | 183/315 kB | 48/156 kB
+Progress (3): 194 kB | 183/315 kB | 65/156 kB
+Progress (3): 194 kB | 183/315 kB | 81/156 kB
+Progress (3): 194 kB | 196/315 kB | 81/156 kB
+Progress (3): 194 kB | 199/315 kB | 81/156 kB
+Progress (3): 194 kB | 199/315 kB | 97/156 kB
+Progress (3): 194 kB | 203/315 kB | 97/156 kB
+Progress (3): 194 kB | 206/315 kB | 97/156 kB
+Progress (3): 194 kB | 206/315 kB | 114/156 kB
+Progress (3): 194 kB | 212/315 kB | 114/156 kB
+Progress (3): 194 kB | 219/315 kB | 114/156 kB
+Progress (3): 194 kB | 222/315 kB | 114/156 kB
+Progress (3): 194 kB | 231/315 kB | 114/156 kB
+Progress (3): 194 kB | 236/315 kB | 114/156 kB
+Progress (3): 194 kB | 238/315 kB | 114/156 kB
+Progress (3): 194 kB | 244/315 kB | 114/156 kB
+Progress (3): 194 kB | 252/315 kB | 114/156 kB
+Progress (3): 194 kB | 253/315 kB | 114/156 kB
+Progress (3): 194 kB | 257/315 kB | 114/156 kB
+Progress (3): 194 kB | 268/315 kB | 114/156 kB
+Progress (4): 194 kB | 268/315 kB | 114/156 kB | 7.3/45 kB
+Progress (4): 194 kB | 268/315 kB | 114/156 kB | 16/45 kB 
+Progress (4): 194 kB | 284/315 kB | 114/156 kB | 16/45 kB
+Progress (4): 194 kB | 284/315 kB | 114/156 kB | 32/45 kB
+Progress (4): 194 kB | 285/315 kB | 114/156 kB | 32/45 kB
+Progress (4): 194 kB | 294/315 kB | 114/156 kB | 32/45 kB
+Progress (4): 194 kB | 303/315 kB | 114/156 kB | 32/45 kB
+Progress (4): 194 kB | 306/315 kB | 114/156 kB | 32/45 kB
+Progress (4): 194 kB | 315 kB | 114/156 kB | 32/45 kB    
+Progress (4): 194 kB | 315 kB | 130/156 kB | 32/45 kB
+Progress (4): 194 kB | 315 kB | 146/156 kB | 32/45 kB
+Progress (4): 194 kB | 315 kB | 156 kB | 32/45 kB    
+Progress (5): 194 kB | 315 kB | 156 kB | 32/45 kB | 7.3/49 kB
+Progress (5): 194 kB | 315 kB | 156 kB | 32/45 kB | 16/49 kB 
+Progress (5): 194 kB | 315 kB | 156 kB | 32/45 kB | 32/49 kB
+Progress (5): 194 kB | 315 kB | 156 kB | 45 kB | 32/49 kB   
+Progress (5): 194 kB | 315 kB | 156 kB | 45 kB | 48/49 kB
+Progress (5): 194 kB | 315 kB | 156 kB | 45 kB | 49 kB   
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/junit/junit/4.12/junit-4.12.jar (315 kB at 1.6 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (49 kB at 236 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+Progress (4): 194 kB | 156 kB | 45 kB | 3.4/35 kB
+Progress (4): 194 kB | 156 kB | 45 kB | 20/35 kB 
+Progress (4): 194 kB | 156 kB | 45 kB | 35 kB   
+                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (156 kB at 720 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar (45 kB at 200 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+Progress (3): 194 kB | 35 kB | 1.9/68 kB
+Progress (3): 194 kB | 35 kB | 18/68 kB 
+Progress (3): 194 kB | 35 kB | 35/68 kB
+Progress (3): 194 kB | 35 kB | 51/68 kB
+Progress (3): 194 kB | 35 kB | 67/68 kB
+Progress (3): 194 kB | 35 kB | 68 kB   
+Progress (4): 194 kB | 35 kB | 68 kB | 4.8/332 kB
+Progress (4): 194 kB | 35 kB | 68 kB | 21/332 kB 
+Progress (4): 194 kB | 35 kB | 68 kB | 38/332 kB
+Progress (4): 194 kB | 35 kB | 68 kB | 54/332 kB
+Progress (4): 194 kB | 35 kB | 68 kB | 70/332 kB
+Progress (4): 194 kB | 35 kB | 68 kB | 87/332 kB
+Progress (4): 194 kB | 35 kB | 68 kB | 103/332 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar (194 kB at 819 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+Progress (3): 35 kB | 68 kB | 120/332 kB
+Progress (3): 35 kB | 68 kB | 136/332 kB
+Progress (3): 35 kB | 68 kB | 152/332 kB
+Progress (3): 35 kB | 68 kB | 169/332 kB
+Progress (4): 35 kB | 68 kB | 169/332 kB | 1.9/30 kB
+Progress (4): 35 kB | 68 kB | 185/332 kB | 1.9/30 kB
+Progress (4): 35 kB | 68 kB | 201/332 kB | 1.9/30 kB
+Progress (4): 35 kB | 68 kB | 218/332 kB | 1.9/30 kB
+Progress (4): 35 kB | 68 kB | 218/332 kB | 18/30 kB 
+Progress (4): 35 kB | 68 kB | 234/332 kB | 18/30 kB
+Progress (4): 35 kB | 68 kB | 234/332 kB | 30 kB   
+Progress (4): 35 kB | 68 kB | 251/332 kB | 30 kB
+Progress (4): 35 kB | 68 kB | 267/332 kB | 30 kB
+Progress (4): 35 kB | 68 kB | 283/332 kB | 30 kB
+                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 kB at 145 kB/s)
+Progress (3): 68 kB | 290/332 kB | 30 kB
+                                        
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+Progress (3): 68 kB | 306/332 kB | 30 kB
+Progress (3): 68 kB | 322/332 kB | 30 kB
+Progress (3): 68 kB | 332 kB | 30 kB    
+Progress (4): 68 kB | 332 kB | 30 kB | 1.9/51 kB
+Progress (4): 68 kB | 332 kB | 30 kB | 18/51 kB 
+Progress (4): 68 kB | 332 kB | 30 kB | 35/51 kB
+Progress (4): 68 kB | 332 kB | 30 kB | 51 kB   
+Progress (5): 68 kB | 332 kB | 30 kB | 51 kB | 4.8/88 kB
+Progress (5): 68 kB | 332 kB | 30 kB | 51 kB | 21/88 kB 
+                                                       
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (68 kB at 258 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+Progress (4): 332 kB | 30 kB | 51 kB | 38/88 kB
+Progress (4): 332 kB | 30 kB | 51 kB | 54/88 kB
+Progress (4): 332 kB | 30 kB | 51 kB | 70/88 kB
+Progress (4): 332 kB | 30 kB | 51 kB | 87/88 kB
+Progress (4): 332 kB | 30 kB | 51 kB | 88 kB   
+                                            
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 108 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar (332 kB at 1.2 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+Progress (3): 51 kB | 88 kB | 7.3/178 kB
+Progress (3): 51 kB | 88 kB | 11/178 kB 
+Progress (3): 51 kB | 88 kB | 27/178 kB
+Progress (3): 51 kB | 88 kB | 43/178 kB
+Progress (3): 51 kB | 88 kB | 60/178 kB
+Progress (3): 51 kB | 88 kB | 65/178 kB
+Progress (3): 51 kB | 88 kB | 68/178 kB
+Progress (3): 51 kB | 88 kB | 79/178 kB
+Progress (4): 51 kB | 88 kB | 79/178 kB | 7.3/8.8 kB
+Progress (4): 51 kB | 88 kB | 79/178 kB | 8.8 kB    
+Progress (5): 51 kB | 88 kB | 79/178 kB | 8.8 kB | 3.4/22 kB
+Progress (5): 51 kB | 88 kB | 96/178 kB | 8.8 kB | 3.4/22 kB
+Progress (5): 51 kB | 88 kB | 100/178 kB | 8.8 kB | 3.4/22 kB
+                                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar (51 kB at 170 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+Progress (4): 88 kB | 116/178 kB | 8.8 kB | 3.4/22 kB
+Progress (4): 88 kB | 116/178 kB | 8.8 kB | 20/22 kB 
+Progress (4): 88 kB | 129/178 kB | 8.8 kB | 20/22 kB
+Progress (4): 88 kB | 129/178 kB | 8.8 kB | 22 kB   
+Progress (4): 88 kB | 145/178 kB | 8.8 kB | 22 kB
+Progress (4): 88 kB | 162/178 kB | 8.8 kB | 22 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 285 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+Progress (3): 178 kB | 8.8 kB | 22 kB
+Progress (4): 178 kB | 8.8 kB | 22 kB | 1.9/22 kB
+Progress (4): 178 kB | 8.8 kB | 22 kB | 18/22 kB 
+Progress (4): 178 kB | 8.8 kB | 22 kB | 22 kB   
+                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar (8.8 kB at 27 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+Progress (4): 178 kB | 22 kB | 22 kB | 7.3/17 kB
+Progress (4): 178 kB | 22 kB | 22 kB | 16/17 kB 
+Progress (4): 178 kB | 22 kB | 22 kB | 17 kB   
+                                            
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (178 kB at 523 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+Progress (4): 22 kB | 22 kB | 17 kB | 4.9/11 kB
+Progress (4): 22 kB | 22 kB | 17 kB | 11 kB    
+                                           
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar (22 kB at 64 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+Progress (4): 22 kB | 17 kB | 11 kB | 1.9/26 kB
+Progress (4): 22 kB | 17 kB | 11 kB | 18/26 kB 
+                                              
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 kB at 62 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+Progress (3): 17 kB | 11 kB | 26 kB
+Progress (4): 17 kB | 11 kB | 26 kB | 1.9/13 kB
+Progress (4): 17 kB | 11 kB | 26 kB | 13 kB    
+Progress (5): 17 kB | 11 kB | 26 kB | 13 kB | 4.8/10 kB
+Progress (5): 17 kB | 11 kB | 26 kB | 13 kB | 10 kB    
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar (17 kB at 44 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/classworlds/classworlds/1.1/classworlds-1.1.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 66 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+Progress (4): 11 kB | 13 kB | 10 kB | 0.5/38 kB
+                                               
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 28 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar
+Progress (3): 13 kB | 10 kB | 17/38 kB
+Progress (3): 13 kB | 10 kB | 33/38 kB
+Progress (3): 13 kB | 10 kB | 38 kB   
+                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 33 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/6.2/asm-6.2.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (10 kB at 26 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar
+Progress (2): 38 kB | 4.8/38 kB
+Progress (2): 38 kB | 21/38 kB 
+Progress (2): 38 kB | 38/38 kB
+Progress (2): 38 kB | 38 kB   
+Progress (3): 38 kB | 38 kB | 4.9/111 kB
+Progress (3): 38 kB | 38 kB | 21/111 kB 
+Progress (3): 38 kB | 38 kB | 38/111 kB
+Progress (3): 38 kB | 38 kB | 54/111 kB
+Progress (3): 38 kB | 38 kB | 66/111 kB
+Progress (3): 38 kB | 38 kB | 69/111 kB
+Progress (3): 38 kB | 38 kB | 85/111 kB
+Progress (3): 38 kB | 38 kB | 91/111 kB
+Progress (4): 38 kB | 38 kB | 91/111 kB | 1.9/39 kB
+Progress (4): 38 kB | 38 kB | 91/111 kB | 18/39 kB 
+Progress (4): 38 kB | 38 kB | 107/111 kB | 18/39 kB
+Progress (4): 38 kB | 38 kB | 111 kB | 18/39 kB    
+Progress (4): 38 kB | 38 kB | 111 kB | 35/39 kB
+Progress (4): 38 kB | 38 kB | 111 kB | 39 kB   
+Progress (5): 38 kB | 38 kB | 111 kB | 39 kB | 3.4/316 kB
+Progress (5): 38 kB | 38 kB | 111 kB | 39 kB | 20/316 kB 
+                                                        
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/classworlds/classworlds/1.1/classworlds-1.1.jar (38 kB at 89 kB/s)
+Progress (4): 38 kB | 111 kB | 39 kB | 36/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 53/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 69/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 85/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 102/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 118/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 134/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 151/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 167/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 184/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 200/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 216/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 233/316 kB
+Progress (4): 38 kB | 111 kB | 39 kB | 249/316 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar (38 kB at 86 kB/s)
+Progress (3): 111 kB | 39 kB | 266/316 kB
+Progress (3): 111 kB | 39 kB | 282/316 kB
+Progress (3): 111 kB | 39 kB | 298/316 kB
+Progress (3): 111 kB | 39 kB | 315/316 kB
+Progress (3): 111 kB | 39 kB | 316 kB    
+                                     
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar (39 kB at 87 kB/s)
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/6.2/asm-6.2.jar (111 kB at 242 kB/s)
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar (316 kB at 675 kB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ sky-common ---
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar
+Progress (1): 1.9/61 kB
+Progress (1): 18/61 kB 
+Progress (1): 35/61 kB
+Progress (1): 51/61 kB
+Progress (1): 61 kB   
+                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar (61 kB at 1.1 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+Progress (1): 4.9/153 kB
+Progress (1): 21/153 kB 
+Progress (1): 38/153 kB
+Progress (1): 54/153 kB
+Progress (1): 70/153 kB
+Progress (1): 87/153 kB
+Progress (1): 103/153 kB
+Progress (1): 120/153 kB
+Progress (2): 120/153 kB | 4.8/285 kB
+Progress (3): 120/153 kB | 4.8/285 kB | 7.3/202 kB
+Progress (3): 136/153 kB | 4.8/285 kB | 7.3/202 kB
+Progress (3): 136/153 kB | 4.8/285 kB | 11/202 kB 
+Progress (3): 152/153 kB | 4.8/285 kB | 11/202 kB
+Progress (3): 152/153 kB | 4.8/285 kB | 27/202 kB
+Progress (3): 153 kB | 4.8/285 kB | 27/202 kB    
+Progress (3): 153 kB | 21/285 kB | 27/202 kB 
+Progress (3): 153 kB | 21/285 kB | 43/202 kB
+Progress (3): 153 kB | 38/285 kB | 43/202 kB
+Progress (4): 153 kB | 38/285 kB | 43/202 kB | 7.3/35 kB
+Progress (4): 153 kB | 38/285 kB | 43/202 kB | 16/35 kB 
+Progress (4): 153 kB | 38/285 kB | 60/202 kB | 16/35 kB
+Progress (4): 153 kB | 38/285 kB | 60/202 kB | 32/35 kB
+Progress (4): 153 kB | 54/285 kB | 60/202 kB | 32/35 kB
+Progress (4): 153 kB | 54/285 kB | 60/202 kB | 35 kB   
+Progress (4): 153 kB | 54/285 kB | 76/202 kB | 35 kB
+Progress (4): 153 kB | 70/285 kB | 76/202 kB | 35 kB
+Progress (4): 153 kB | 87/285 kB | 76/202 kB | 35 kB
+Progress (4): 153 kB | 87/285 kB | 93/202 kB | 35 kB
+Progress (4): 153 kB | 103/285 kB | 93/202 kB | 35 kB
+Progress (4): 153 kB | 103/285 kB | 109/202 kB | 35 kB
+Progress (4): 153 kB | 120/285 kB | 109/202 kB | 35 kB
+Progress (4): 153 kB | 120/285 kB | 125/202 kB | 35 kB
+Progress (4): 153 kB | 136/285 kB | 125/202 kB | 35 kB
+Progress (4): 153 kB | 152/285 kB | 125/202 kB | 35 kB
+Progress (4): 153 kB | 169/285 kB | 125/202 kB | 35 kB
+Progress (4): 153 kB | 185/285 kB | 125/202 kB | 35 kB
+Progress (4): 153 kB | 201/285 kB | 125/202 kB | 35 kB
+Progress (5): 153 kB | 201/285 kB | 125/202 kB | 35 kB | 7.4/41 kB
+Progress (5): 153 kB | 201/285 kB | 125/202 kB | 35 kB | 16/41 kB 
+Progress (5): 153 kB | 218/285 kB | 125/202 kB | 35 kB | 16/41 kB
+Progress (5): 153 kB | 234/285 kB | 125/202 kB | 35 kB | 16/41 kB
+Progress (5): 153 kB | 234/285 kB | 125/202 kB | 35 kB | 32/41 kB
+Progress (5): 153 kB | 251/285 kB | 125/202 kB | 35 kB | 32/41 kB
+Progress (5): 153 kB | 251/285 kB | 142/202 kB | 35 kB | 32/41 kB
+Progress (5): 153 kB | 251/285 kB | 142/202 kB | 35 kB | 41 kB   
+Progress (5): 153 kB | 267/285 kB | 142/202 kB | 35 kB | 41 kB
+Progress (5): 153 kB | 283/285 kB | 142/202 kB | 35 kB | 41 kB
+Progress (5): 153 kB | 285 kB | 142/202 kB | 35 kB | 41 kB    
+Progress (5): 153 kB | 285 kB | 158/202 kB | 35 kB | 41 kB
+Progress (5): 153 kB | 285 kB | 175/202 kB | 35 kB | 41 kB
+Progress (5): 153 kB | 285 kB | 191/202 kB | 35 kB | 41 kB
+Progress (5): 153 kB | 285 kB | 202 kB | 35 kB | 41 kB    
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (153 kB at 2.4 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar (285 kB at 3.9 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+Progress (4): 202 kB | 35 kB | 41 kB | 4.9/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 21/472 kB 
+Progress (4): 202 kB | 35 kB | 41 kB | 38/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 54/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 70/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 87/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 103/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 120/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 136/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 152/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 169/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 185/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 201/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 218/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 234/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 251/472 kB
+Progress (4): 202 kB | 35 kB | 41 kB | 267/472 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar (35 kB at 380 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.jar
+Progress (3): 202 kB | 41 kB | 283/472 kB
+Progress (3): 202 kB | 41 kB | 300/472 kB
+Progress (3): 202 kB | 41 kB | 316/472 kB
+Progress (3): 202 kB | 41 kB | 333/472 kB
+Progress (4): 202 kB | 41 kB | 333/472 kB | 7.4/54 kB
+Progress (4): 202 kB | 41 kB | 333/472 kB | 16/54 kB 
+Progress (4): 202 kB | 41 kB | 349/472 kB | 16/54 kB
+Progress (4): 202 kB | 41 kB | 349/472 kB | 32/54 kB
+Progress (4): 202 kB | 41 kB | 365/472 kB | 32/54 kB
+                                                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar (202 kB at 2.1 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar
+Progress (3): 41 kB | 365/472 kB | 48/54 kB
+Progress (3): 41 kB | 382/472 kB | 48/54 kB
+Progress (3): 41 kB | 382/472 kB | 54 kB   
+Progress (3): 41 kB | 398/472 kB | 54 kB
+Progress (3): 41 kB | 414/472 kB | 54 kB
+Progress (3): 41 kB | 431/472 kB | 54 kB
+Progress (3): 41 kB | 447/472 kB | 54 kB
+Progress (3): 41 kB | 464/472 kB | 54 kB
+Progress (3): 41 kB | 472 kB | 54 kB    
+Progress (4): 41 kB | 472 kB | 54 kB | 7.4/632 kB
+Progress (4): 41 kB | 472 kB | 54 kB | 16/632 kB 
+Progress (4): 41 kB | 472 kB | 54 kB | 17/632 kB
+Progress (4): 41 kB | 472 kB | 54 kB | 33/632 kB
+                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar (41 kB at 346 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.jar
+Progress (3): 472 kB | 54 kB | 49/632 kB
+Progress (4): 472 kB | 54 kB | 49/632 kB | 3.4/26 kB
+Progress (4): 472 kB | 54 kB | 49/632 kB | 20/26 kB 
+Progress (4): 472 kB | 54 kB | 49/632 kB | 26 kB   
+Progress (5): 472 kB | 54 kB | 49/632 kB | 26 kB | 1.9/195 kB
+Progress (5): 472 kB | 54 kB | 49/632 kB | 26 kB | 18/195 kB 
+Progress (5): 472 kB | 54 kB | 49/632 kB | 26 kB | 35/195 kB
+Progress (5): 472 kB | 54 kB | 66/632 kB | 26 kB | 35/195 kB
+Progress (5): 472 kB | 54 kB | 66/632 kB | 26 kB | 51/195 kB
+Progress (5): 472 kB | 54 kB | 82/632 kB | 26 kB | 51/195 kB
+Progress (5): 472 kB | 54 kB | 82/632 kB | 26 kB | 67/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 67/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 84/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 100/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 117/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 133/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 149/195 kB
+Progress (5): 472 kB | 54 kB | 98/632 kB | 26 kB | 166/195 kB
+Progress (5): 472 kB | 54 kB | 115/632 kB | 26 kB | 166/195 kB
+Progress (5): 472 kB | 54 kB | 115/632 kB | 26 kB | 182/195 kB
+Progress (5): 472 kB | 54 kB | 131/632 kB | 26 kB | 182/195 kB
+Progress (5): 472 kB | 54 kB | 131/632 kB | 26 kB | 195 kB    
+Progress (5): 472 kB | 54 kB | 148/632 kB | 26 kB | 195 kB
+Progress (5): 472 kB | 54 kB | 164/632 kB | 26 kB | 195 kB
+Progress (5): 472 kB | 54 kB | 180/632 kB | 26 kB | 195 kB
+Progress (5): 472 kB | 54 kB | 197/632 kB | 26 kB | 195 kB
+Progress (5): 472 kB | 54 kB | 213/632 kB | 26 kB | 195 kB
+Progress (5): 472 kB | 54 kB | 230/632 kB | 26 kB | 195 kB
+                                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (472 kB at 3.0 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar
+Progress (4): 54 kB | 246/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 262/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 279/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 295/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 311/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 328/632 kB | 26 kB | 195 kB
+Progress (4): 54 kB | 344/632 kB | 26 kB | 195 kB
+Progress (5): 54 kB | 344/632 kB | 26 kB | 195 kB | 7.3/76 kB
+Progress (5): 54 kB | 344/632 kB | 26 kB | 195 kB | 16/76 kB 
+Progress (5): 54 kB | 344/632 kB | 26 kB | 195 kB | 32/76 kB
+Progress (5): 54 kB | 344/632 kB | 26 kB | 195 kB | 48/76 kB
+Progress (5): 54 kB | 344/632 kB | 26 kB | 195 kB | 65/76 kB
+Progress (5): 54 kB | 361/632 kB | 26 kB | 195 kB | 65/76 kB
+Progress (5): 54 kB | 361/632 kB | 26 kB | 195 kB | 76 kB   
+                                                         
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar (54 kB at 297 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1.jar
+Progress (4): 377/632 kB | 26 kB | 195 kB | 76 kB
+Progress (4): 393/632 kB | 26 kB | 195 kB | 76 kB
+Progress (4): 410/632 kB | 26 kB | 195 kB | 76 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.jar (26 kB at 136 kB/s)
+Progress (3): 426/632 kB | 195 kB | 76 kB
+Progress (3): 443/632 kB | 195 kB | 76 kB
+Progress (3): 459/632 kB | 195 kB | 76 kB
+Progress (3): 475/632 kB | 195 kB | 76 kB
+Progress (3): 492/632 kB | 195 kB | 76 kB
+Progress (4): 492/632 kB | 195 kB | 76 kB | 4.8/262 kB
+Progress (4): 492/632 kB | 195 kB | 76 kB | 21/262 kB 
+Progress (4): 492/632 kB | 195 kB | 76 kB | 38/262 kB
+Progress (4): 492/632 kB | 195 kB | 76 kB | 54/262 kB
+Progress (4): 492/632 kB | 195 kB | 76 kB | 70/262 kB
+                                                     
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.jar (195 kB at 946 kB/s)
+Progress (3): 508/632 kB | 76 kB | 70/262 kB
+Progress (3): 508/632 kB | 76 kB | 87/262 kB
+Progress (3): 508/632 kB | 76 kB | 103/262 kB
+Progress (3): 508/632 kB | 76 kB | 116/262 kB
+Progress (3): 524/632 kB | 76 kB | 116/262 kB
+Progress (3): 524/632 kB | 76 kB | 132/262 kB
+Progress (3): 541/632 kB | 76 kB | 132/262 kB
+Progress (3): 541/632 kB | 76 kB | 149/262 kB
+Progress (3): 541/632 kB | 76 kB | 165/262 kB
+Progress (3): 541/632 kB | 76 kB | 179/262 kB
+Progress (3): 541/632 kB | 76 kB | 181/262 kB
+Progress (3): 541/632 kB | 76 kB | 187/262 kB
+Progress (3): 541/632 kB | 76 kB | 204/262 kB
+Progress (3): 541/632 kB | 76 kB | 205/262 kB
+Progress (3): 541/632 kB | 76 kB | 217/262 kB
+Progress (3): 541/632 kB | 76 kB | 233/262 kB
+Progress (3): 541/632 kB | 76 kB | 240/262 kB
+Progress (3): 541/632 kB | 76 kB | 256/262 kB
+Progress (3): 541/632 kB | 76 kB | 260/262 kB
+Progress (3): 541/632 kB | 76 kB | 262 kB    
+Progress (3): 557/632 kB | 76 kB | 262 kB
+Progress (3): 574/632 kB | 76 kB | 262 kB
+                                         
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar (76 kB at 336 kB/s)
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/3.3.1/plexus-utils-3.3.1.jar (262 kB at 1.1 MB/s)
+Progress (1): 590/632 kB
+Progress (1): 606/632 kB
+Progress (1): 623/632 kB
+Progress (1): 632 kB    
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar (632 kB at 2.1 MB/s)
+[INFO] Building jar: C:\Users\14759\Desktop\projectcode\sky-take-out\sky-common\target\sky-common-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------------< com.sky:sky-pojo >--------------------------
+[INFO] Building sky-pojo 1.0-SNAPSHOT                                     [3/4]
+[INFO]   from sky-pojo\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final.jar
+Progress (1): 7.3/23 kB
+Progress (1): 9.2/23 kB
+Progress (1): 23 kB    
+                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final.jar (23 kB at 334 kB/s)
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ sky-pojo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 0 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ sky-pojo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ sky-pojo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\14759\Desktop\projectcode\sky-take-out\sky-pojo\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ sky-pojo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ sky-pojo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ sky-pojo ---
+[INFO] Building jar: C:\Users\14759\Desktop\projectcode\sky-take-out\sky-pojo\target\sky-pojo-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------------< com.sky:sky-server >-------------------------
+[INFO] Building sky-server 1.0-SNAPSHOT                                   [4/4]
+[INFO]   from sky-server\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-test/2.7.3/spring-boot-starter-test-2.7.3.jar
+Progress (1): 4.8 kB
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-starter-test/2.7.3/spring-boot-starter-test-2.7.3.jar (4.8 kB at 23 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-test/2.7.3/spring-boot-test-2.7.3.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-test-autoconfigure/2.7.3/spring-boot-test-autoconfigure-2.7.3.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar
+Progress (1): 0/5.2 MB
+Progress (2): 0/5.2 MB | 1.9/662 kB
+Progress (2): 0/5.2 MB | 18/662 kB 
+Progress (2): 0/5.2 MB | 18/662 kB
+Progress (2): 0/5.2 MB | 35/662 kB
+Progress (2): 0/5.2 MB | 35/662 kB
+Progress (2): 0/5.2 MB | 51/662 kB
+Progress (2): 0.1/5.2 MB | 51/662 kB
+Progress (2): 0.1/5.2 MB | 51/662 kB
+Progress (2): 0.1/5.2 MB | 51/662 kB
+Progress (2): 0.1/5.2 MB | 51/662 kB
+Progress (3): 0.1/5.2 MB | 51/662 kB | 7.3/271 kB
+Progress (3): 0.1/5.2 MB | 51/662 kB | 16/271 kB 
+Progress (3): 0.1/5.2 MB | 51/662 kB | 16/271 kB
+Progress (3): 0.1/5.2 MB | 51/662 kB | 16/271 kB
+Progress (3): 0.1/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.1/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.1/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.2/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.2/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.2/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.2/5.2 MB | 67/662 kB | 16/271 kB
+Progress (3): 0.2/5.2 MB | 67/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 84/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 84/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 84/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 84/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 84/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 100/662 kB | 32/271 kB
+Progress (3): 0.2/5.2 MB | 100/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 100/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 117/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 117/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 133/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 133/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 133/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.3/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.4/5.2 MB | 149/662 kB | 32/271 kB
+Progress (3): 0.4/5.2 MB | 149/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 166/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 182/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 182/662 kB | 48/271 kB
+Progress (3): 0.4/5.2 MB | 199/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 199/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 199/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 199/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 215/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 215/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 231/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 231/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 231/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 248/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 248/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 264/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 280/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 297/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 313/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 330/662 kB | 48/271 kB
+Progress (3): 0.5/5.2 MB | 330/662 kB | 65/271 kB
+Progress (3): 0.5/5.2 MB | 346/662 kB | 65/271 kB
+Progress (3): 0.5/5.2 MB | 362/662 kB | 65/271 kB
+Progress (3): 0.5/5.2 MB | 379/662 kB | 65/271 kB
+Progress (3): 0.5/5.2 MB | 379/662 kB | 81/271 kB
+Progress (3): 0.5/5.2 MB | 395/662 kB | 81/271 kB
+Progress (3): 0.5/5.2 MB | 412/662 kB | 81/271 kB
+Progress (4): 0.5/5.2 MB | 412/662 kB | 81/271 kB | 3.4/237 kB
+Progress (4): 0.5/5.2 MB | 412/662 kB | 81/271 kB | 20/237 kB 
+Progress (4): 0.5/5.2 MB | 428/662 kB | 81/271 kB | 20/237 kB
+Progress (4): 0.5/5.2 MB | 428/662 kB | 81/271 kB | 36/237 kB
+Progress (4): 0.5/5.2 MB | 428/662 kB | 81/271 kB | 53/237 kB
+Progress (4): 0.5/5.2 MB | 428/662 kB | 81/271 kB | 57/237 kB
+Progress (4): 0.5/5.2 MB | 444/662 kB | 81/271 kB | 57/237 kB
+Progress (4): 0.5/5.2 MB | 444/662 kB | 81/271 kB | 74/237 kB
+Progress (4): 0.5/5.2 MB | 461/662 kB | 81/271 kB | 74/237 kB
+Progress (4): 0.5/5.2 MB | 461/662 kB | 81/271 kB | 75/237 kB
+Progress (4): 0.5/5.2 MB | 477/662 kB | 81/271 kB | 75/237 kB
+Progress (4): 0.5/5.2 MB | 477/662 kB | 81/271 kB | 91/237 kB
+Progress (4): 0.5/5.2 MB | 477/662 kB | 81/271 kB | 92/237 kB
+Progress (4): 0.5/5.2 MB | 477/662 kB | 81/271 kB | 95/237 kB
+Progress (4): 0.5/5.2 MB | 493/662 kB | 81/271 kB | 95/237 kB
+Progress (4): 0.5/5.2 MB | 510/662 kB | 81/271 kB | 95/237 kB
+Progress (4): 0.5/5.2 MB | 526/662 kB | 81/271 kB | 95/237 kB
+Progress (4): 0.5/5.2 MB | 526/662 kB | 81/271 kB | 107/237 kB
+Progress (4): 0.5/5.2 MB | 543/662 kB | 81/271 kB | 107/237 kB
+Progress (4): 0.5/5.2 MB | 543/662 kB | 81/271 kB | 113/237 kB
+Progress (4): 0.5/5.2 MB | 559/662 kB | 81/271 kB | 113/237 kB
+Progress (4): 0.5/5.2 MB | 575/662 kB | 81/271 kB | 113/237 kB
+Progress (4): 0.5/5.2 MB | 575/662 kB | 81/271 kB | 125/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 125/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 132/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 142/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 152/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 158/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 164/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 174/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 183/237 kB
+Progress (4): 0.5/5.2 MB | 592/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.5/5.2 MB | 608/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.5/5.2 MB | 608/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.5/5.2 MB | 608/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.5/5.2 MB | 608/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.5/5.2 MB | 625/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 625/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 641/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 641/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 657/662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 662 kB | 81/271 kB | 193/237 kB    
+Progress (4): 0.6/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.6/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.7/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 193/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 200/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 200/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 200/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 200/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 217/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 217/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 81/271 kB | 219/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 219/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 225/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 225/237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB    
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.8/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 0.9/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (4): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 7.4/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 16/216 kB 
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 16/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 16/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 32/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 32/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 48/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 97/271 kB | 237 kB | 65/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 65/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 65/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 81/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.0/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 114/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.1/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.2/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.3/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.4/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 97/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 130/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 146/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.5/5.2 MB | 662 kB | 146/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 146/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 146/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 146/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 163/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 163/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 163/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 163/271 kB | 237 kB | 114/216 kB
+Progress (5): 1.6/5.2 MB | 662 kB | 163/271 kB | 237 kB | 114/216 kB
+                                                                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar (662 kB at 5.6 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/net/bytebuddy/byte-buddy-agent/1.12.13/byte-buddy-agent-1.12.13.jar
+Progress (4): 1.6/5.2 MB | 163/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 163/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.7/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.8/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 1.9/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 179/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 114/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 130/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 130/216 kB
+Progress (4): 2.0/5.2 MB | 196/271 kB | 237 kB | 146/216 kB
+Progress (4): 2.1/5.2 MB | 196/271 kB | 237 kB | 146/216 kB
+Progress (4): 2.1/5.2 MB | 196/271 kB | 237 kB | 163/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 163/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 163/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 179/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 179/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 196/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 196/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 212/216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 216 kB    
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 216 kB
+Progress (4): 2.1/5.2 MB | 212/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 212/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.2/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 228/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.3/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.4/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 245/271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 261/271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 271 kB | 237 kB | 216 kB    
+Progress (4): 2.5/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.5/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.6/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.7/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.8/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 2.9/5.2 MB | 271 kB | 237 kB | 216 kB
+Progress (4): 3.0/5.2 MB | 271 kB | 237 kB | 216 kB
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar (271 kB at 1.5 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1.jar
+Progress (3): 3.0/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.0/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.0/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.0/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.0/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.1/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.2/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.3/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.4/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.5/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.6/5.2 MB | 237 kB | 216 kB
+Progress (3): 3.7/5.2 MB | 237 kB | 216 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 4.8/5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB    
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 3.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.0/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.1/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.2/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.3/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.4/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.5/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.6/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.7/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.8/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+Progress (4): 4.9/5.2 MB | 237 kB | 216 kB | 5.4 kB
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-test-autoconfigure/2.7.3/spring-boot-test-autoconfigure-2.7.3.jar (216 kB at 754 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-test/5.3.22/spring-test-5.3.22.jar
+Progress (3): 4.9/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 4.9/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 4.9/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 4.9/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.0/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.1/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.2/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.2/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.2/5.2 MB | 237 kB | 5.4 kB
+Progress (3): 5.2 MB | 237 kB | 5.4 kB    
+                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-test/2.7.3/spring-boot-test-2.7.3.jar (237 kB at 752 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar
+Progress (3): 5.2 MB | 5.4 kB | 7.4/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 16/174 kB 
+Progress (3): 5.2 MB | 5.4 kB | 32/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 48/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 65/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 81/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 97/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 114/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 130/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 146/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 163/174 kB
+Progress (3): 5.2 MB | 5.4 kB | 174 kB    
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 4.9/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 21/788 kB 
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 38/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 54/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 70/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 87/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 103/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 120/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 136/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 152/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 169/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 185/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 201/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 217/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 230/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 240/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 252/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 263/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 275/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 287/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 298/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 310/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 322/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 328/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 333/788 kB
+Progress (4): 5.2 MB | 5.4 kB | 174 kB | 345/788 kB
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1.jar (5.4 kB at 14 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar
+Progress (3): 5.2 MB | 174 kB | 357/788 kB
+Progress (3): 5.2 MB | 174 kB | 365/788 kB
+Progress (3): 5.2 MB | 174 kB | 368/788 kB
+Progress (3): 5.2 MB | 174 kB | 380/788 kB
+Progress (3): 5.2 MB | 174 kB | 392/788 kB
+Progress (3): 5.2 MB | 174 kB | 403/788 kB
+Progress (3): 5.2 MB | 174 kB | 415/788 kB
+Progress (3): 5.2 MB | 174 kB | 427/788 kB
+Progress (3): 5.2 MB | 174 kB | 431/788 kB
+Progress (3): 5.2 MB | 174 kB | 448/788 kB
+Progress (3): 5.2 MB | 174 kB | 449/788 kB
+Progress (3): 5.2 MB | 174 kB | 460/788 kB
+Progress (3): 5.2 MB | 174 kB | 463/788 kB
+Progress (3): 5.2 MB | 174 kB | 474/788 kB
+Progress (3): 5.2 MB | 174 kB | 485/788 kB
+Progress (3): 5.2 MB | 174 kB | 497/788 kB
+Progress (3): 5.2 MB | 174 kB | 507/788 kB
+Progress (3): 5.2 MB | 174 kB | 519/788 kB
+Progress (3): 5.2 MB | 174 kB | 524/788 kB
+Progress (3): 5.2 MB | 174 kB | 535/788 kB
+Progress (3): 5.2 MB | 174 kB | 552/788 kB
+Progress (3): 5.2 MB | 174 kB | 563/788 kB
+Progress (3): 5.2 MB | 174 kB | 579/788 kB
+Progress (3): 5.2 MB | 174 kB | 596/788 kB
+Progress (3): 5.2 MB | 174 kB | 612/788 kB
+Progress (3): 5.2 MB | 174 kB | 628/788 kB
+Progress (3): 5.2 MB | 174 kB | 645/788 kB
+Progress (3): 5.2 MB | 174 kB | 661/788 kB
+                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar (174 kB at 436 kB/s)
+Progress (2): 5.2 MB | 678/788 kB
+Progress (2): 5.2 MB | 694/788 kB
+Progress (2): 5.2 MB | 710/788 kB
+Progress (2): 5.2 MB | 727/788 kB
+Progress (2): 5.2 MB | 743/788 kB
+Progress (2): 5.2 MB | 760/788 kB
+Progress (2): 5.2 MB | 776/788 kB
+Progress (2): 5.2 MB | 788 kB    
+Progress (3): 5.2 MB | 788 kB | 1.9/256 kB
+Progress (3): 5.2 MB | 788 kB | 18/256 kB 
+Progress (3): 5.2 MB | 788 kB | 35/256 kB
+Progress (3): 5.2 MB | 788 kB | 51/256 kB
+Progress (3): 5.2 MB | 788 kB | 67/256 kB
+Progress (3): 5.2 MB | 788 kB | 84/256 kB
+Progress (3): 5.2 MB | 788 kB | 100/256 kB
+Progress (3): 5.2 MB | 788 kB | 117/256 kB
+Progress (3): 5.2 MB | 788 kB | 133/256 kB
+Progress (3): 5.2 MB | 788 kB | 149/256 kB
+Progress (3): 5.2 MB | 788 kB | 166/256 kB
+Progress (3): 5.2 MB | 788 kB | 182/256 kB
+Progress (3): 5.2 MB | 788 kB | 199/256 kB
+Progress (3): 5.2 MB | 788 kB | 215/256 kB
+Progress (3): 5.2 MB | 788 kB | 231/256 kB
+Progress (3): 5.2 MB | 788 kB | 248/256 kB
+Progress (3): 5.2 MB | 788 kB | 256 kB    
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.1/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.2/2.5 MB
+Progress (4): 5.2 MB | 788 kB | 256 kB | 0.2/2.5 MB
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/spring-test/5.3.22/spring-test-5.3.22.jar (788 kB at 1.7 MB/s)
+Progress (3): 5.2 MB | 256 kB | 0.2/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.2/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.2/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.2/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.2/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+Progress (3): 5.2 MB | 256 kB | 0.3/2.5 MB
+                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar (5.2 MB at 10 MB/s)
+Progress (2): 256 kB | 0.3/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.4/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.5/2.5 MB
+Progress (2): 256 kB | 0.6/2.5 MB
+Progress (2): 256 kB | 0.6/2.5 MB
+                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/net/bytebuddy/byte-buddy-agent/1.12.13/byte-buddy-agent-1.12.13.jar (256 kB at 416 kB/s)
+Progress (1): 0.6/2.5 MB
+Progress (1): 0.6/2.5 MB
+Progress (1): 0.6/2.5 MB
+Progress (1): 0.6/2.5 MB
+Progress (1): 0.6/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.7/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.8/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 0.9/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.0/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.1/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.2/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.3/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.4/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.5/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.6/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.7/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.8/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 1.9/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.0/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.1/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.2/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.3/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.4/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5/2.5 MB
+Progress (1): 2.5 MB    
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar (2.5 MB at 894 kB/s)
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ sky-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ sky-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to C:\Users\14759\Desktop\projectcode\sky-take-out\sky-server\target\classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ sky-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\14759\Desktop\projectcode\sky-take-out\sky-server\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ sky-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ sky-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ sky-server ---
+[INFO] Building jar: C:\Users\14759\Desktop\projectcode\sky-take-out\sky-server\target\sky-server-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.7.3:repackage (repackage) @ sky-server ---
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.pom
+Progress (1): 3.4 kB
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.pom (3.4 kB at 33 kB/s)
+[INFO] Artifact net.java.dev.jna:jna-platform:pom:5.7.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+[INFO] Artifact net.java.dev.jna:jna-platform:pom:5.7.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna-platform/5.7.0/jna-platform-5.7.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna-platform/5.7.0/jna-platform-5.7.0.pom (0 B at 0 B/s)
+[INFO] Artifact net.java.dev.jna:jna:pom:5.7.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+[INFO] Artifact net.java.dev.jna:jna:pom:5.7.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna/5.7.0/jna-5.7.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna/5.7.0/jna-5.7.0.pom (0 B at 0 B/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-loader-tools/2.7.3/spring-boot-loader-tools-2.7.3.pom
+Progress (1): 2.3 kB
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-loader-tools/2.7.3/spring-boot-loader-tools-2.7.3.pom (2.3 kB at 11 kB/s)
+[INFO] Artifact org.apache.maven.plugins:maven-shade-plugin:pom:3.2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+[INFO] Artifact org.apache.maven.plugins:maven-shade-plugin:pom:3.2.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-component-annotations:pom:1.5.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-component-annotations:pom:1.5.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-containers:pom:1.5.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-containers:pom:1.5.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-containers/1.5.4/plexus-containers-1.5.4.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus:pom:2.0.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus:pom:2.0.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-artifact-transfer:pom:0.12.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-artifact-transfer:pom:0.12.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-shared-components:pom:33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-shared-components:pom:33 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-common-artifact-filters:pom:3.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-common-artifact-filters:pom:3.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-shared-utils:pom:3.1.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-shared-utils:pom:3.1.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:3.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-utils:pom:3.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.slf4j:slf4j-api:pom:1.7.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.slf4j:slf4j-api:pom:1.7.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (0 B at 0 B/s)
+[INFO] Artifact org.slf4j:slf4j-parent:pom:1.7.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.slf4j:slf4j-parent:pom:1.7.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (0 B at 0 B/s)
+[INFO] Artifact org.ow2.asm:asm:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.ow2.asm:asm:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/8.0/asm-8.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/8.0/asm-8.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.ow2.asm:asm-commons:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.ow2.asm:asm-commons:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.ow2.asm:asm-tree:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.ow2.asm:asm-tree:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.ow2.asm:asm-analysis:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.ow2.asm:asm-analysis:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.jdom:jdom2:pom:2.0.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.jdom:jdom2:pom:2.0.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom (0 B at 0 B/s)
+[INFO] Artifact org.apache.maven.shared:maven-dependency-tree:pom:3.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.apache.maven.shared:maven-dependency-tree:pom:3.0.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-component-annotations:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-component-annotations:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus-containers:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus-containers:pom:1.6 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom (0 B at 0 B/s)
+[INFO] Artifact org.codehaus.plexus:plexus:pom:3.3.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.codehaus.plexus:plexus:pom:3.3.2 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom (0 B at 0 B/s)
+[INFO] Artifact org.vafer:jdependency:pom:2.4.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.vafer:jdependency:pom:2.4.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/vafer/jdependency/2.4.0/jdependency-2.4.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/vafer/jdependency/2.4.0/jdependency-2.4.0.pom (0 B at 0 B/s)
+[INFO] Artifact org.ow2.asm:asm-util:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.ow2.asm:asm-util:pom:8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-util/8.0/asm-util-8.0.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-util/8.0/asm-util-8.0.pom (0 B at 0 B/s)
+[INFO] Artifact com.google.guava:guava:pom:28.2-android is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.google.guava:guava:pom:28.2-android is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava/28.2-android/guava-28.2-android.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava/28.2-android/guava-28.2-android.pom (0 B at 0 B/s)
+[INFO] Artifact com.google.guava:guava-parent:pom:28.2-android is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.google.guava:guava-parent:pom:28.2-android is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava-parent/28.2-android/guava-parent-28.2-android.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava-parent/28.2-android/guava-parent-28.2-android.pom (0 B at 0 B/s)
+[INFO] Artifact org.checkerframework:checker-compat-qual:pom:2.5.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact org.checkerframework:checker-compat-qual:pom:2.5.5 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.pom (0 B at 0 B/s)
+[INFO] Artifact com.google.errorprone:error_prone_annotations:pom:2.3.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.google.errorprone:error_prone_annotations:pom:2.3.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.pom (0 B at 0 B/s)
+[INFO] Artifact com.google.errorprone:error_prone_parent:pom:2.3.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.google.errorprone:error_prone_parent:pom:2.3.4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_parent/2.3.4/error_prone_parent-2.3.4.pom (0 B at 0 B/s)
+[INFO] Artifact com.google.j2objc:j2objc-annotations:pom:1.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+[INFO] Artifact com.google.j2objc:j2objc-annotations:pom:1.3 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyunmaven (https://maven.aliyun.com/repository/public, default, releases), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots)]
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom (0 B at 0 B/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.jar
+Progress (1): 1.9/250 kB
+Progress (1): 18/250 kB 
+Progress (1): 34/250 kB
+Progress (1): 43/250 kB
+Progress (1): 54/250 kB
+Progress (1): 71/250 kB
+Progress (1): 75/250 kB
+Progress (1): 79/250 kB
+Progress (1): 91/250 kB
+Progress (1): 101/250 kB
+Progress (1): 104/250 kB
+Progress (1): 116/250 kB
+Progress (1): 127/250 kB
+Progress (1): 141/250 kB
+Progress (1): 157/250 kB
+Progress (1): 173/250 kB
+Progress (1): 190/250 kB
+Progress (1): 206/250 kB
+Progress (1): 223/250 kB
+Progress (1): 239/250 kB
+Progress (1): 250 kB    
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-buildpack-platform/2.7.3/spring-boot-buildpack-platform-2.7.3.jar (250 kB at 554 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna-platform/5.7.0/jna-platform-5.7.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna/5.7.0/jna-5.7.0.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-loader-tools/2.7.3/spring-boot-loader-tools-2.7.3.jar
+Progress (1): 0/1.7 MB
+Progress (2): 0/1.7 MB | 1.9/329 kB
+Progress (3): 0/1.7 MB | 1.9/329 kB | 7.3/335 kB
+Progress (3): 0/1.7 MB | 1.9/329 kB | 16/335 kB 
+Progress (3): 0/1.7 MB | 18/329 kB | 16/335 kB 
+Progress (3): 0/1.7 MB | 35/329 kB | 16/335 kB
+Progress (3): 0/1.7 MB | 35/329 kB | 32/335 kB
+Progress (3): 0/1.7 MB | 35/329 kB | 48/335 kB
+Progress (3): 0/1.7 MB | 35/329 kB | 65/335 kB
+Progress (3): 0/1.7 MB | 35/329 kB | 81/335 kB
+Progress (3): 0/1.7 MB | 35/329 kB | 97/335 kB
+Progress (4): 0/1.7 MB | 35/329 kB | 97/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 35/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 51/329 kB | 114/335 kB | 0/1.3 MB
+Progress (4): 0/1.7 MB | 51/329 kB | 114/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 51/329 kB | 114/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 51/329 kB | 114/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 114/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 114/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 130/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 146/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 146/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 163/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 179/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 196/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 212/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 228/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 245/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 261/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 278/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 294/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 310/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 310/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 327/335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 67/329 kB | 335 kB | 0.1/1.3 MB    
+Progress (4): 0/1.7 MB | 84/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 85/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 102/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 113/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 129/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 144/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 144/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 144/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 144/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 160/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 170/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 170/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 186/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 193/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 210/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 217/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 233/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 233/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 249/329 kB | 335 kB | 0.1/1.3 MB
+Progress (4): 0/1.7 MB | 249/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 249/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 249/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 249/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 266/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 266/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 266/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 266/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 282/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 282/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 282/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 282/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 282/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 298/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 298/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 298/329 kB | 335 kB | 0.2/1.3 MB
+Progress (4): 0/1.7 MB | 315/329 kB | 335 kB | 0.2/1.3 MB
+Progress (5): 0/1.7 MB | 315/329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 315/329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 315/329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB    
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.2/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 4.9/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 21/249 kB 
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 21/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 38/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 38/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.3/1.3 MB | 49/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 49/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 60/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 60/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 60/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 60/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 72/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 72/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 72/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 72/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 87/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 88/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 88/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 88/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 88/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 100/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 100/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 111/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 111/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 111/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 117/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 123/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 123/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.4/1.3 MB | 132/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.5/1.3 MB | 132/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.5/1.3 MB | 135/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.5/1.3 MB | 135/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.5/1.3 MB | 135/249 kB
+Progress (5): 0/1.7 MB | 329 kB | 335 kB | 0.5/1.3 MB | 145/249 kB
+                                                                  
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 4.7 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 148/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 148/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 152/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 152/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 152/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 164/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 164/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 164/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 180/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 180/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 180/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 184/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 184/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 184/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 199/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 199/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 215/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 215/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 217/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 217/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 233/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.5/1.3 MB | 237/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 237/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249/249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB    
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.6/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.7/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.8/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 0.9/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (4): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.0/1.3 MB | 249 kB | 1.9/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 1.9/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB 
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.1/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 18/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 35/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.2/1.3 MB | 249 kB | 51/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 51/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 51/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 67/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 67/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 67/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 67/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 84/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 84/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3/1.3 MB | 249 kB | 100/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 100/134 kB    
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 117/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 133/134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB    
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB
+Progress (5): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB | 134 kB
+                                                            
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar (134 kB at 981 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+Progress (4): 0.1/1.7 MB | 329 kB | 1.3 MB | 249 kB
+                                                   
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna-platform/5.7.0/jna-platform-5.7.0.jar (1.3 MB at 9.0 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+Progress (3): 0.2/1.7 MB | 329 kB | 249 kB
+Progress (3): 0.2/1.7 MB | 329 kB | 249 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 7.3/49 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 16/49 kB 
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 32/49 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 48/49 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB   
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 7.3/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 16/165 kB 
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 32/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 48/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 65/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 81/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 97/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 114/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 130/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 146/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 163/165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 165 kB    
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 49 kB | 165 kB
+                                                           
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar (49 kB at 272 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 165 kB
+Progress (5): 0.2/1.7 MB | 329 kB | 249 kB | 165 kB | 1.9/527 kB
+                                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model/3.0/maven-model-3.0.jar (165 kB at 862 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 18/527 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 35/527 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 51/527 kB
+Progress (4): 0.2/1.7 MB | 329 kB | 249 kB | 67/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 67/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 84/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 100/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 117/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 133/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 149/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 166/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 182/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 199/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 215/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 215/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 230/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 246/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 262/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 279/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 295/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 312/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 328/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 344/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 361/527 kB
+Progress (4): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 7.4/47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 16/47 kB 
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 32/47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 47 kB   
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 377/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 394/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 410/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 421/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 437/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 444/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 444/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 444/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 461/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 468/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 484/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 491/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 507/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 514/527 kB | 47 kB
+Progress (5): 0.3/1.7 MB | 329 kB | 249 kB | 527 kB | 47 kB    
+                                                           
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar (329 kB at 1.4 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar (47 kB at 196 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+Progress (3): 0.3/1.7 MB | 249 kB | 527 kB
+Progress (3): 0.4/1.7 MB | 249 kB | 527 kB
+Progress (4): 0.4/1.7 MB | 249 kB | 527 kB | 1.9/38 kB
+Progress (4): 0.4/1.7 MB | 249 kB | 527 kB | 18/38 kB 
+Progress (4): 0.4/1.7 MB | 249 kB | 527 kB | 35/38 kB
+Progress (4): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB   
+Progress (4): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB
+Progress (5): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB | 1.9/30 kB
+Progress (5): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB | 18/30 kB 
+Progress (5): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB | 30 kB   
+Progress (5): 0.4/1.7 MB | 249 kB | 527 kB | 38 kB | 30 kB
+                                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-core/3.0/maven-core-3.0.jar (527 kB at 2.0 MB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+Progress (4): 0.4/1.7 MB | 249 kB | 38 kB | 30 kB
+Progress (4): 0.4/1.7 MB | 249 kB | 38 kB | 30 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-loader-tools/2.7.3/spring-boot-loader-tools-2.7.3.jar (249 kB at 897 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 7.3/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 7.8/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 24/148 kB 
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 41/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 57/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 73/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 81/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 92/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 104/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 116/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 127/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 144/148 kB
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 148 kB    
+Progress (4): 0.4/1.7 MB | 38 kB | 30 kB | 148 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar (38 kB at 132 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+Progress (4): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB | 1.9/51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB | 18/51 kB 
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB | 35/51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB | 51/51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 1.9/106 kB | 51 kB   
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 18/106 kB | 51 kB 
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 35/106 kB | 51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 51/106 kB | 51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 67/106 kB | 51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 84/106 kB | 51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 100/106 kB | 51 kB
+Progress (5): 0.4/1.7 MB | 30 kB | 148 kB | 106 kB | 51 kB    
+                                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar (30 kB at 98 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+Progress (4): 0.5/1.7 MB | 148 kB | 106 kB | 51 kB
+Progress (4): 0.5/1.7 MB | 148 kB | 106 kB | 51 kB
+                                                  
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar (148 kB at 479 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+Progress (3): 0.5/1.7 MB | 106 kB | 51 kB
+Progress (3): 0.5/1.7 MB | 106 kB | 51 kB
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 4.8/74 kB
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 21/74 kB 
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 38/74 kB
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 54/74 kB
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 65/74 kB
+Progress (4): 0.5/1.7 MB | 106 kB | 51 kB | 74 kB   
+Progress (5): 0.5/1.7 MB | 106 kB | 51 kB | 74 kB | 3.4/14 kB
+Progress (5): 0.5/1.7 MB | 106 kB | 51 kB | 74 kB | 14 kB    
+Progress (5): 0.5/1.7 MB | 106 kB | 51 kB | 74 kB | 14 kB
+                                                         
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (106 kB at 313 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+Progress (4): 0.5/1.7 MB | 51 kB | 74 kB | 14 kB
+                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar (51 kB at 146 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 0.5/108 kB
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 17/108 kB 
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 33/108 kB
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 50/108 kB
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 66/108 kB
+Progress (4): 0.5/1.7 MB | 74 kB | 14 kB | 82/108 kB
+Progress (4): 0.6/1.7 MB | 74 kB | 14 kB | 82/108 kB
+Progress (4): 0.6/1.7 MB | 74 kB | 14 kB | 99/108 kB
+Progress (4): 0.6/1.7 MB | 74 kB | 14 kB | 108 kB   
+Progress (4): 0.6/1.7 MB | 74 kB | 14 kB | 108 kB
+Progress (5): 0.6/1.7 MB | 74 kB | 14 kB | 108 kB | 7.3/61 kB
+                                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (74 kB at 202 kB/s)
+Progress (4): 0.6/1.7 MB | 14 kB | 108 kB | 16/61 kB
+                                                    
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+Progress (4): 0.6/1.7 MB | 14 kB | 108 kB | 32/61 kB
+Progress (4): 0.6/1.7 MB | 14 kB | 108 kB | 48/61 kB
+Progress (4): 0.6/1.7 MB | 14 kB | 108 kB | 61 kB   
+Progress (4): 0.6/1.7 MB | 14 kB | 108 kB | 61 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 kB at 36 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+Progress (3): 0.6/1.7 MB | 108 kB | 61 kB
+Progress (3): 0.6/1.7 MB | 108 kB | 61 kB
+Progress (4): 0.6/1.7 MB | 108 kB | 61 kB | 1.9/46 kB
+Progress (4): 0.6/1.7 MB | 108 kB | 61 kB | 18/46 kB 
+Progress (4): 0.6/1.7 MB | 108 kB | 61 kB | 35/46 kB
+Progress (4): 0.6/1.7 MB | 108 kB | 61 kB | 46 kB   
+Progress (4): 0.6/1.7 MB | 108 kB | 61 kB | 46 kB
+                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar (108 kB at 279 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.jar
+Progress (4): 0.6/1.7 MB | 61 kB | 46 kB | 6.3/52 kB
+Progress (4): 0.6/1.7 MB | 61 kB | 46 kB | 23/52 kB 
+Progress (4): 0.6/1.7 MB | 61 kB | 46 kB | 39/52 kB
+Progress (4): 0.6/1.7 MB | 61 kB | 46 kB | 52 kB   
+Progress (4): 0.7/1.7 MB | 61 kB | 46 kB | 52 kB
+                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (61 kB at 152 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 7.4/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 16/120 kB 
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 32/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 32/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 48/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 48/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 65/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 81/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 97/120 kB
+Progress (4): 0.7/1.7 MB | 46 kB | 52 kB | 97/120 kB
+                                                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar (46 kB at 107 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+Progress (3): 0.7/1.7 MB | 52 kB | 97/120 kB
+Progress (3): 0.7/1.7 MB | 52 kB | 97/120 kB
+Progress (3): 0.8/1.7 MB | 52 kB | 97/120 kB
+Progress (4): 0.8/1.7 MB | 52 kB | 97/120 kB | 7.4/61 kB
+Progress (4): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB 
+Progress (4): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 0.5/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 17/164 kB 
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 33/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 50/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 66/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 82/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 99/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 115/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 132/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 148/164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 16/61 kB | 164 kB    
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 32/61 kB | 164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 97/120 kB | 32/61 kB | 164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 114/120 kB | 32/61 kB | 164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 32/61 kB | 164 kB    
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 32/61 kB | 164 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 32/61 kB | 164 kB
+                                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar (164 kB at 318 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+Progress (4): 0.8/1.7 MB | 52 kB | 120 kB | 32/61 kB
+Progress (4): 0.8/1.7 MB | 52 kB | 120 kB | 48/61 kB
+Progress (4): 0.8/1.7 MB | 52 kB | 120 kB | 61 kB   
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 61 kB | 1.9/26 kB
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 61 kB | 18/26 kB 
+Progress (5): 0.8/1.7 MB | 52 kB | 120 kB | 61 kB | 26 kB   
+                                                         
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.jar (120 kB at 227 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/8.0/asm-8.0.jar
+Progress (4): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 4.8/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 21/122 kB 
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 38/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 54/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 70/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 87/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 103/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 111/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 111/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 120/122 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 122 kB    
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 26 kB | 122 kB
+                                                         
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 46 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar
+Progress (5): 0.9/1.7 MB | 52 kB | 61 kB | 122 kB | 1.9/72 kB
+                                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 106 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar
+Progress (4): 0.9/1.7 MB | 52 kB | 122 kB | 18/72 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 122 kB | 35/72 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 122 kB | 35/72 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB
+Progress (4): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB | 3.4/53 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB | 20/53 kB 
+Progress (5): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB | 36/53 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB | 53/53 kB
+Progress (5): 0.9/1.7 MB | 52 kB | 122 kB | 41/72 kB | 53 kB   
+                                                            
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm/8.0/asm-8.0.jar (122 kB at 204 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar
+Progress (4): 0.9/1.7 MB | 52 kB | 41/72 kB | 53 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 41/72 kB | 53 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 54/72 kB | 53 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 66/72 kB | 53 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 66/72 kB | 53 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 53 kB   
+Progress (5): 1.0/1.7 MB | 52 kB | 72 kB | 53 kB | 1.9/33 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 72 kB | 53 kB | 18/33 kB 
+Progress (5): 1.0/1.7 MB | 52 kB | 72 kB | 53 kB | 33 kB   
+Progress (5): 1.0/1.7 MB | 52 kB | 72 kB | 53 kB | 33 kB
+                                                        
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar (53 kB at 83 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 33 kB
+                                                
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar (33 kB at 52 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 7.4/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 11/305 kB 
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 27/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 43/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 60/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 76/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 93/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 109/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 125/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 142/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 158/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 175/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 191/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 207/305 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 72 kB | 224/305 kB
+                                                     
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar (72 kB at 109 kB/s)
+Progress (3): 1.0/1.7 MB | 52 kB | 240/305 kB
+                                             
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/vafer/jdependency/2.4.0/jdependency-2.4.0.jar
+Progress (3): 1.0/1.7 MB | 52 kB | 256/305 kB
+Progress (3): 1.0/1.7 MB | 52 kB | 273/305 kB
+Progress (3): 1.0/1.7 MB | 52 kB | 289/305 kB
+Progress (3): 1.0/1.7 MB | 52 kB | 305 kB    
+Progress (4): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 3.4/180 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 20/180 kB 
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 36/180 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 53/180 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 69/180 kB
+Progress (5): 1.0/1.7 MB | 52 kB | 305 kB | 0.5/37 kB | 85/180 kB
+                                                                 
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar (305 kB at 449 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-util/8.0/asm-util-8.0.jar
+Progress (4): 1.0/1.7 MB | 52 kB | 0.5/37 kB | 102/180 kB
+Progress (4): 1.0/1.7 MB | 52 kB | 0.5/37 kB | 118/180 kB
+Progress (4): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 118/180 kB
+Progress (4): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 134/180 kB
+Progress (4): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 151/180 kB
+Progress (4): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 167/180 kB
+Progress (4): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB    
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 1.9/85 kB
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 18/85 kB 
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 35/85 kB
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 51/85 kB
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 67/85 kB
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 84/85 kB
+Progress (5): 1.1/1.7 MB | 52 kB | 0.5/37 kB | 180 kB | 85 kB   
+                                                             
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar (52 kB at 75 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava/28.2-android/guava-28.2-android.jar
+Progress (4): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.1/2.6 MB
+Progress (5): 1.1/1.7 MB | 0.5/37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 17/37 kB | 180 kB | 85 kB | 0.2/2.6 MB 
+Progress (5): 1.1/1.7 MB | 17/37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 33/37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 33/37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.2/2.6 MB   
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.2/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+Progress (5): 1.1/1.7 MB | 37 kB | 180 kB | 85 kB | 0.3/2.6 MB
+                                                              
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/ow2/asm/asm-util/8.0/asm-util-8.0.jar (85 kB at 117 kB/s)
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.3/2.6 MB
+                                                      
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.4/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.5/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.6/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 180 kB | 0.7/2.6 MB
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/vafer/jdependency/2.4.0/jdependency-2.4.0.jar (180 kB at 246 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+Progress (3): 1.1/1.7 MB | 37 kB | 0.7/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.7/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.7/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.7/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.7/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.8/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (3): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB
+Progress (4): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB | 0.5/5.9 kB
+Progress (4): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB | 5.9 kB    
+Progress (4): 1.1/1.7 MB | 37 kB | 0.9/2.6 MB | 5.9 kB
+Progress (4): 1.1/1.7 MB | 37 kB | 1.0/2.6 MB | 5.9 kB
+Progress (4): 1.1/1.7 MB | 37 kB | 1.0/2.6 MB | 5.9 kB
+Progress (4): 1.1/1.7 MB | 37 kB | 1.0/2.6 MB | 5.9 kB
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar (37 kB at 49 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+Progress (4): 1.1/1.7 MB | 1.0/2.6 MB | 5.9 kB | 7.3/14 kB
+Progress (4): 1.1/1.7 MB | 1.0/2.6 MB | 5.9 kB | 14 kB    
+Progress (4): 1.1/1.7 MB | 1.0/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.0/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.0/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.1/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.2/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.3/2.6 MB | 5.9 kB | 14 kB
+Progress (4): 1.1/1.7 MB | 1.3/2.6 MB | 5.9 kB | 14 kB
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar (5.9 kB at 7.6 kB/s)
+Downloading from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar
+Progress (3): 1.1/1.7 MB | 1.3/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.3/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.3/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.3/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.1/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.4/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB
+Progress (4): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB | 7.4/8.8 kB
+Progress (4): 1.2/1.7 MB | 1.5/2.6 MB | 14 kB | 8.8 kB    
+                                                      
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar (14 kB at 18 kB/s)
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.5/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.6/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.7/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.8/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 1.9/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB
+Progress (3): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 1.9/500 kB
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 18/500 kB 
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.0/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.1/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.2/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.3/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.4/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.4/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.4/2.6 MB | 8.8 kB | 35/500 kB
+Progress (4): 1.2/1.7 MB | 2.4/2.6 MB | 8.8 kB | 35/500 kB
+                                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar (8.8 kB at 11 kB/s)
+Progress (3): 1.2/1.7 MB | 2.4/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.4/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.5/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6/2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 35/500 kB    
+Progress (3): 1.2/1.7 MB | 2.6 MB | 35/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 51/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 67/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 84/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 92/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 104/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 120/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 125/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 129/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 133/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 142/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 157/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 168/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 184/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 200/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 217/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 224/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 240/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 253/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 269/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 281/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 295/500 kB
+Progress (3): 1.2/1.7 MB | 2.6 MB | 312/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 312/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 316/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 329/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 345/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 346/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 363/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 371/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 386/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 398/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 409/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 421/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 434/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 450/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 452/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 459/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 468/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 484/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 488/500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 500 kB    
+Progress (3): 1.3/1.7 MB | 2.6 MB | 500 kB
+Progress (3): 1.3/1.7 MB | 2.6 MB | 500 kB
+                                          
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/com/google/guava/guava/28.2-android/guava-28.2-android.jar (2.6 MB at 3.0 MB/s)
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar (500 kB at 564 kB/s)
+Progress (1): 1.3/1.7 MB
+Progress (1): 1.3/1.7 MB
+Progress (1): 1.3/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.4/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.5/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.6/1.7 MB
+Progress (1): 1.7/1.7 MB
+Progress (1): 1.7/1.7 MB
+Progress (1): 1.7/1.7 MB
+Progress (1): 1.7 MB    
+                    
+Downloaded from aliyunmaven: https://maven.aliyun.com/repository/public/net/java/dev/jna/jna/5.7.0/jna-5.7.0.jar (1.7 MB at 1.4 MB/s)
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for sky-take-out 1.0-SNAPSHOT:
+[INFO] 
+[INFO] sky-take-out ....................................... SUCCESS [  0.003 s]
+[INFO] sky-common ......................................... SUCCESS [  5.122 s]
+[INFO] sky-pojo ........................................... SUCCESS [  1.438 s]
+[INFO] sky-server ......................................... SUCCESS [ 14.230 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.213 s
+[INFO] Finished at: 2026-10-29T15:40:11+08:00
+[INFO] ------------------------------------------------------------------------
