@@ -11,6 +11,7 @@ import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import com.sky.context.BaseContext;
 
 /**
  * jwt令牌校验的拦截器
@@ -47,12 +48,28 @@ public class JwtTokenAdminInterceptor implements HandlerInterceptor {
             Claims claims = JwtUtil.parseJWT(jwtProperties.getAdminSecretKey(), token);
             Long empId = Long.valueOf(claims.get(JwtClaimsConstant.EMP_ID).toString());
             log.info("当前员工id：", empId);
-            //3、通过，放行
+            //3、将当前登录员工id存入ThreadLocal（后续业务中通过BaseContext.getCurrentId()获取）
+            BaseContext.setCurrentId(empId);
+            //4、通过，放行
             return true;
         } catch (Exception ex) {
             //4、不通过，响应401状态码
             response.setStatus(401);
             return false;
         }
+    }
+
+    /**
+     * 请求处理完成后，清理ThreadLocal，防止线程池复用导致数据串台
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param ex
+     * @throws Exception
+     */
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        BaseContext.removeCurrentId();
     }
 }
