@@ -99,10 +99,21 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeMapper.insert(employee);
 
     }
-
+    /**
+     * 员工启禁用
+     *
+     * @param status
+     * @param id
+     */
     @Override
     public void startOrStop(Integer status, Long id) {
-
+        Employee employee = Employee.builder()
+                .id(id)
+                .status(status)
+                .updateTime(LocalDateTime.now())
+                .updateUser(BaseContext.getCurrentId())
+                .build();
+        employeeMapper.update(employee);
     }
 
     @Override

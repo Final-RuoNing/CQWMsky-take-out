@@ -26,6 +26,7 @@ public class GlobalExceptionHandler {
         log.error("异常信息：{}", ex.getMessage());
         return Result.error(ex.getMessage());
     }
+    @ExceptionHandler
     public Result exceptionHandler2(SQLIntegrityConstraintViolationException ex){
         //Duplicate entry 'zhangsan' for key 'employee.idx_username'
         String message = ex.getMessage();

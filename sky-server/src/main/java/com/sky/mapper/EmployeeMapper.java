@@ -21,8 +21,16 @@ public interface EmployeeMapper {
     //分页查询（返回类型是page）
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
 
+    /**
+     * 新增员工
+     * @param employee
+     */
     void insert(Employee employee);
 
+    /**
+     * 根据主键动态修改属性
+     * @param employee
+     */
 
     void update(Employee employee);
 
